@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  font-family: serif;
+  color: rgb(0, 0, 0);
+  background-image: url("https://media0.giphy.com/media/Sye75bfzPZrmo/giphy.gif");
+  background-size: 1700px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+a {
+  color: black;
+  background: beige;
+}
+a:hoover {
+  color: aqua;
+  background: red;
+}
+
+#heading {
+  color: rgb(2, 44, 136);
+  font-size: 70px;
+}
