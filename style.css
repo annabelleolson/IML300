@@ -1,11 +1,15 @@
 body {
   position: relative;
   font-family: serif;
-  color: rgb(0, 0, 0);
-  background-image: url("https://media0.giphy.com/media/Sye75bfzPZrmo/giphy.gif");
+  color: #265b5f;
+  /* background-image: url("https://media0.giphy.com/media/Sye75bfzPZrmo/giphy.gif"); */
   background-size: 1700px;
   background-repeat: no-repeat;
   text-align: center;
+  background-color: linen;
+}
+img:hover {
+  box-shadow: #265b5f;
 }
 
 h1 {
@@ -13,15 +17,64 @@ h1 {
   text-align: center;
 }
 a {
-  color: black;
-  background: beige;
+  color: #cc5500;
+  /* background: #cc5500; */
 }
-a:hoover {
-  color: aqua;
-  background: red;
+a:hover {
+  background: #cc5500;
+  color: linen;
 }
 
 #heading {
-  color: rgb(2, 44, 136);
+  /* color: rgb(2, 44, 136); */
   font-size: 70px;
+}
+.container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#work {
+  /* border: 1px solid green; */
+}
+.projects {
+  /* border: 5px solid black; */
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.Olia {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#exerciesList {
+  list-style: none;
+}
+#ExercisesImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+}
+
+.thoughts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#work {
+  position: relative;
+}
+
+.presentation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
